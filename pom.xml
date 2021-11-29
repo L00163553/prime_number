@@ -34,7 +34,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>mvnSimpleProj.Calculator</mainClass>
+            <mainClass>prime_number.Application</mainClass>
           </manifest>
         </archive>
       </configuration>
