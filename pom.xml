@@ -23,6 +23,7 @@
     <artifactId>h2</artifactId>
 </dependency></dependencies>
 <build>
+
 <plugins> 
     <plugin>
       <!-- Build an executable JAR -->
@@ -40,6 +41,7 @@
       </configuration>
     </plugin>    
    </plugins> 
+   <finalName>prime_number</finalName>
 </build>
 	<packaging>war</packaging>
 </project>
