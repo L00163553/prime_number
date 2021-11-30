@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/prime")
+@RequestMapping("/prime_number/prime")
 public class FirstController {
 	
 	@PostMapping
