@@ -36,7 +36,6 @@ public class Application extends SpringBootServletInitializer{
 		   }      
 		   if(flag==0)  { result = (n+" is a prime number"); }  
 		  }
-		return "<html>\n" + "<header><title>Prime Number Checker</title></header>\n" +
-        "<body>\n<h1>" + result + "</h1></body>\n" + "</html>";
+		return result;
 		}    
 }
